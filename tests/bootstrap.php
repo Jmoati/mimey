@@ -1,9 +1,11 @@
 <?php
 
+declare(strict_types=1);
+
 // Turn on all errors.
 error_reporting(E_ALL);
 
-require_once dirname(__DIR__) . '/vendor/autoload.php';
+require_once dirname(__DIR__).'/vendor/autoload.php';
 
 // Generate the mapping file.
-require dirname(__DIR__) . '/bin/generate.php';
+require dirname(__DIR__).'/bin/generate.php';
